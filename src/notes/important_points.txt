@@ -9,3 +9,26 @@ how to commit in github
 >> git add . // sari changes save ho jayegi and staging area m chli jayegi 
 
 >>git commit -m "yaha msg likhte hai" //isse project commit ho jati hai 
+
+git config --global user.email "you@example.com"
+
+git config --global user.name "Your Name"
+
+
+//how to push your codes in github
+url = https://github.com/Damini613/React_Frontend_Template.git
+
+git remote add origin 'your_url_name'
+
+git push -u origin master 
+>>for pushing bthe content from local to github 
+
+//it will ask for authorization : email/username and password of git 
+
+
+//agr koi changes krta hai to uska pull lenge agr humlog to wo changes hmlog ko v dikhega 
+git pull 'remote_name' 'branch_name'
+
+/*
+If you make a change in a repository, GIT PULL can allow others to view the changes. It is used to acknowledge the change that you've made to the repository that you're working on. Or also called a target repository.
+*/
