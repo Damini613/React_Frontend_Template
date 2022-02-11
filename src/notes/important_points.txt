@@ -1,0 +1,11 @@
+how to commit in github
+
+>>project k andar jayenge 
+
+>>git init (repo initialise ho jayega)
+
+>>git ignore file me node_modules ko add krenge ...qki isko commit nhi krte hai ..bhot heavy ya large file hoti hai 
+
+>> git add . // sari changes save ho jayegi and staging area m chli jayegi 
+
+>>git commit -m "yaha msg likhte hai" //isse project commit ho jati hai 
